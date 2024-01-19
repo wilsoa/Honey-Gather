@@ -1,0 +1,56 @@
+/* Colors from https://pokepalettes.com/#combee */
+
+body {
+	background: #eeeeff;
+	color: #393941;
+	font-family: Tahoma, sans-serif;
+}
+
+h1 {
+	border-bottom: 7px solid #ffc500;
+}
+
+#search {
+	border: 1px solid rgba(255,255,255,0.25);
+  background-color: #bdbdd5;
+  color: #393941;
+  padding: 12px 14px 12px 14px;
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+  line-height: 1.25;
+  margin: 0;
+  width: 80%;
+  margin-top: 15px;
+}
+
+#search:focus {
+  border-color:rgba(255,255,255,0.45);
+  outline:none
+}
+
+#search_area {
+	width:100%;
+	padding-left: 2%;
+}
+
+#errors {
+	float:right;
+	width: 12%;
+	margin-right: 2%;
+	color: #ee3939;
+	font-weight: bold;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#errors.visible {
+	opacity: 1;
+}
+
+.icon {
+	display: inline-block;
+  background-position: -1512px -462px;
+  width: 32px;
+  height: 32px;
+}

@@ -1,0 +1,5059 @@
+.icon {
+  background-image: url('./spritesheet.png');
+  background-size: 1568px 1554px;
+}
+.icon-abomasnow {
+  background-position: -0px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-abra {
+  background-position: -0px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-absol {
+  background-position: -56px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-accelgor {
+  background-position: -56px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aegislash-shield {
+  background-position: -0px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aerodactyl {
+  background-position: -56px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aggron {
+  background-position: -112px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aipom {
+  background-position: -112px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-alakazam {
+  background-position: -112px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-alcremie {
+  background-position: -0px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-alomomola {
+  background-position: -56px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-altaria {
+  background-position: -112px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-amaura {
+  background-position: -0px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ambipom {
+  background-position: -56px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-amoonguss {
+  background-position: -112px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ampharos {
+  background-position: -168px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-annihilape {
+  background-position: -168px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-anorith {
+  background-position: -168px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-appletun {
+  background-position: -168px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-applin {
+  background-position: -168px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-araquanid {
+  background-position: -0px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arbok {
+  background-position: -56px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arboliva {
+  background-position: -112px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arcanine {
+  background-position: -168px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arceus {
+  background-position: -224px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-archen {
+  background-position: -224px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-archeops {
+  background-position: -224px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arctibax {
+  background-position: -224px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arctovish {
+  background-position: -224px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arctozolt {
+  background-position: -224px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ariados {
+  background-position: -0px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-armaldo {
+  background-position: -56px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-armarouge {
+  background-position: -112px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aromatisse {
+  background-position: -168px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aron {
+  background-position: -224px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-arrokuda {
+  background-position: -280px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-articuno {
+  background-position: -280px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-audino {
+  background-position: -280px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-aurorus {
+  background-position: -280px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-avalugg {
+  background-position: -280px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-axew {
+  background-position: -280px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-azelf {
+  background-position: -280px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-azumarill {
+  background-position: -0px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-azurill {
+  background-position: -56px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bagon {
+  background-position: -112px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-baltoy {
+  background-position: -168px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-banette {
+  background-position: -224px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-barbaracle {
+  background-position: -280px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-barboach {
+  background-position: -0px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-barraskewda {
+  background-position: -56px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-basculegion-male {
+  background-position: -112px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-basculin-red-striped {
+  background-position: -168px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bastiodon {
+  background-position: -224px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-baxcalibur {
+  background-position: -280px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bayleef {
+  background-position: -336px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-beartic {
+  background-position: -336px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-beautifly {
+  background-position: -336px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-beedrill {
+  background-position: -336px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-beheeyem {
+  background-position: -336px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-beldum {
+  background-position: -336px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bellibolt {
+  background-position: -336px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bellossom {
+  background-position: -336px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bellsprout {
+  background-position: -336px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bergmite {
+  background-position: -0px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bewear {
+  background-position: -56px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bibarel {
+  background-position: -112px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bidoof {
+  background-position: -168px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-binacle {
+  background-position: -224px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bisharp {
+  background-position: -280px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-blacephalon {
+  background-position: -336px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-blastoise {
+  background-position: -392px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-blaziken {
+  background-position: -392px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-blipbug {
+  background-position: -392px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-blissey {
+  background-position: -392px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-blitzle {
+  background-position: -392px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-boldore {
+  background-position: -392px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-boltund {
+  background-position: -392px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bombirdier {
+  background-position: -392px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bonsly {
+  background-position: -392px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bouffalant {
+  background-position: -392px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bounsweet {
+  background-position: -0px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-braixen {
+  background-position: -56px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-brambleghast {
+  background-position: -112px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bramblin {
+  background-position: -168px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-braviary {
+  background-position: -224px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-breloom {
+  background-position: -280px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-brionne {
+  background-position: -336px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bronzong {
+  background-position: -392px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bronzor {
+  background-position: -448px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-brute-bonnet {
+  background-position: -448px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bruxish {
+  background-position: -448px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-budew {
+  background-position: -448px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-buizel {
+  background-position: -448px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bulbasaur {
+  background-position: -448px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-buneary {
+  background-position: -448px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-bunnelby {
+  background-position: -448px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-burmy {
+  background-position: -448px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-butterfree {
+  background-position: -448px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-buzzwole {
+  background-position: -448px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cacnea {
+  background-position: -0px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cacturne {
+  background-position: -56px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-calyrex {
+  background-position: -112px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-camerupt {
+  background-position: -168px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-capsakid {
+  background-position: -224px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-carbink {
+  background-position: -280px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-carkol {
+  background-position: -336px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-carnivine {
+  background-position: -392px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-carracosta {
+  background-position: -448px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-carvanha {
+  background-position: -0px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cascoon {
+  background-position: -56px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-castform {
+  background-position: -112px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-caterpie {
+  background-position: -168px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-celebi {
+  background-position: -224px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-celesteela {
+  background-position: -280px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-centiskorch {
+  background-position: -336px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ceruledge {
+  background-position: -392px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cetitan {
+  background-position: -448px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cetoddle {
+  background-position: -504px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chandelure {
+  background-position: -504px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chansey {
+  background-position: -504px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-charcadet {
+  background-position: -504px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-charizard {
+  background-position: -504px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-charjabug {
+  background-position: -504px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-charmander {
+  background-position: -504px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-charmeleon {
+  background-position: -504px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chatot {
+  background-position: -504px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cherrim {
+  background-position: -504px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cherubi {
+  background-position: -504px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chesnaught {
+  background-position: -504px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chespin {
+  background-position: -504px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chewtle {
+  background-position: -0px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chi-yu {
+  background-position: -56px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chien-pao {
+  background-position: -112px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chikorita {
+  background-position: -168px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chimchar {
+  background-position: -224px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chimecho {
+  background-position: -280px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chinchou {
+  background-position: -336px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-chingling {
+  background-position: -392px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cinccino {
+  background-position: -448px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cinderace {
+  background-position: -504px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clamperl {
+  background-position: -560px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clauncher {
+  background-position: -560px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clawitzer {
+  background-position: -560px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-claydol {
+  background-position: -560px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clefable {
+  background-position: -560px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clefairy {
+  background-position: -560px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cleffa {
+  background-position: -560px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clobbopus {
+  background-position: -560px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-clodsire {
+  background-position: -560px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cloyster {
+  background-position: -560px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-coalossal {
+  background-position: -560px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cobalion {
+  background-position: -560px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cofagrigus {
+  background-position: -560px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-combee {
+  background-position: -560px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-combusken {
+  background-position: -0px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-comfey {
+  background-position: -56px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-conkeldurr {
+  background-position: -112px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-copperajah {
+  background-position: -168px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-corphish {
+  background-position: -224px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-corsola {
+  background-position: -280px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-corviknight {
+  background-position: -336px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-corvisquire {
+  background-position: -392px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cosmoem {
+  background-position: -448px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cosmog {
+  background-position: -504px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cottonee {
+  background-position: -560px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-crabominable {
+  background-position: -616px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-crabrawler {
+  background-position: -616px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cradily {
+  background-position: -616px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cramorant {
+  background-position: -616px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cranidos {
+  background-position: -616px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-crawdaunt {
+  background-position: -616px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cresselia {
+  background-position: -616px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-croagunk {
+  background-position: -616px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-crobat {
+  background-position: -616px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-crocalor {
+  background-position: -616px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-croconaw {
+  background-position: -616px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-crustle {
+  background-position: -616px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cryogonal {
+  background-position: -616px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cubchoo {
+  background-position: -616px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cubone {
+  background-position: -616px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cufant {
+  background-position: -0px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cursola {
+  background-position: -56px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cutiefly {
+  background-position: -112px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cyclizar {
+  background-position: -168px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-cyndaquil {
+  background-position: -224px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dachsbun {
+  background-position: -280px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-darkrai {
+  background-position: -336px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-darmanitan-standard {
+  background-position: -392px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dartrix {
+  background-position: -448px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-darumaka {
+  background-position: -504px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-decidueye {
+  background-position: -560px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dedenne {
+  background-position: -616px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-deerling {
+  background-position: -0px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-deino {
+  background-position: -56px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-delcatty {
+  background-position: -112px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-delibird {
+  background-position: -168px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-delphox {
+  background-position: -224px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-deoxys-normal {
+  background-position: -280px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dewgong {
+  background-position: -336px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dewott {
+  background-position: -392px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dewpider {
+  background-position: -448px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dhelmise {
+  background-position: -504px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dialga {
+  background-position: -560px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-diancie {
+  background-position: -616px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-diggersby {
+  background-position: -672px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-diglett {
+  background-position: -672px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ditto {
+  background-position: -672px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dodrio {
+  background-position: -672px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-doduo {
+  background-position: -672px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dolliv {
+  background-position: -672px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dondozo {
+  background-position: -672px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-donphan {
+  background-position: -672px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dottler {
+  background-position: -672px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-doublade {
+  background-position: -672px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dracovish {
+  background-position: -672px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dracozolt {
+  background-position: -672px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dragalge {
+  background-position: -672px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dragapult {
+  background-position: -672px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dragonair {
+  background-position: -672px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dragonite {
+  background-position: -672px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drakloak {
+  background-position: -672px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drampa {
+  background-position: -0px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drapion {
+  background-position: -56px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dratini {
+  background-position: -112px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drednaw {
+  background-position: -168px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dreepy {
+  background-position: -224px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drifblim {
+  background-position: -280px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drifloon {
+  background-position: -336px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drilbur {
+  background-position: -392px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drizzile {
+  background-position: -448px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-drowzee {
+  background-position: -504px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-druddigon {
+  background-position: -560px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dubwool {
+  background-position: -616px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ducklett {
+  background-position: -672px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dudunsparce {
+  background-position: -728px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dugtrio {
+  background-position: -728px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dunsparce {
+  background-position: -728px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-duosion {
+  background-position: -728px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-duraludon {
+  background-position: -728px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-durant {
+  background-position: -728px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dusclops {
+  background-position: -728px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dusknoir {
+  background-position: -728px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-duskull {
+  background-position: -728px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dustox {
+  background-position: -728px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-dwebble {
+  background-position: -728px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-eelektrik {
+  background-position: -728px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-eelektross {
+  background-position: -728px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-eevee {
+  background-position: -728px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-eiscue-ice {
+  background-position: -728px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ekans {
+  background-position: -728px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-eldegoss {
+  background-position: -728px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-electabuzz {
+  background-position: -728px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-electivire {
+  background-position: -0px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-electrike {
+  background-position: -56px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-electrode {
+  background-position: -112px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-elekid {
+  background-position: -168px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-elgyem {
+  background-position: -224px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-emboar {
+  background-position: -280px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-emolga {
+  background-position: -336px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-empoleon {
+  background-position: -392px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-enamorus-incarnate {
+  background-position: -448px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-entei {
+  background-position: -504px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-escavalier {
+  background-position: -560px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-espathra {
+  background-position: -616px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-espeon {
+  background-position: -672px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-espurr {
+  background-position: -728px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-eternatus {
+  background-position: -784px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-excadrill {
+  background-position: -784px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-exeggcute {
+  background-position: -784px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-exeggutor {
+  background-position: -784px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-exploud {
+  background-position: -784px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-falinks {
+  background-position: -784px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-farfetchd {
+  background-position: -784px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-farigiraf {
+  background-position: -784px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fearow {
+  background-position: -784px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-feebas {
+  background-position: -784px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fennekin {
+  background-position: -784px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-feraligatr {
+  background-position: -784px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ferroseed {
+  background-position: -784px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ferrothorn {
+  background-position: -784px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fidough {
+  background-position: -784px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-finizen {
+  background-position: -784px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-finneon {
+  background-position: -784px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flaaffy {
+  background-position: -784px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flabebe {
+  background-position: -784px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flamigo {
+  background-position: -0px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flapple {
+  background-position: -56px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flareon {
+  background-position: -112px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fletchinder {
+  background-position: -168px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fletchling {
+  background-position: -224px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flittle {
+  background-position: -280px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-floatzel {
+  background-position: -336px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-floette {
+  background-position: -392px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-floragato {
+  background-position: -448px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-florges {
+  background-position: -504px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flutter-mane {
+  background-position: -560px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-flygon {
+  background-position: -616px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fomantis {
+  background-position: -672px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-foongus {
+  background-position: -728px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-forretress {
+  background-position: -784px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fraxure {
+  background-position: -0px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-frigibax {
+  background-position: -56px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-frillish {
+  background-position: -112px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-froakie {
+  background-position: -168px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-frogadier {
+  background-position: -224px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-froslass {
+  background-position: -280px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-frosmoth {
+  background-position: -336px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-fuecoco {
+  background-position: -392px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-furfrou {
+  background-position: -448px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-furret {
+  background-position: -504px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gabite {
+  background-position: -560px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gallade {
+  background-position: -616px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-galvantula {
+  background-position: -672px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-garbodor {
+  background-position: -728px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-garchomp {
+  background-position: -784px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gardevoir {
+  background-position: -840px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-garganacl {
+  background-position: -840px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gastly {
+  background-position: -840px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gastrodon {
+  background-position: -840px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-genesect {
+  background-position: -840px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gengar {
+  background-position: -840px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-geodude {
+  background-position: -840px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gholdengo {
+  background-position: -840px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gible {
+  background-position: -840px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gigalith {
+  background-position: -840px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gimmighoul {
+  background-position: -840px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-girafarig {
+  background-position: -840px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-giratina-altered {
+  background-position: -840px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-glaceon {
+  background-position: -840px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-glalie {
+  background-position: -840px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-glameow {
+  background-position: -840px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-glastrier {
+  background-position: -840px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gligar {
+  background-position: -840px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-glimmet {
+  background-position: -840px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-glimmora {
+  background-position: -840px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gliscor {
+  background-position: -840px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gloom {
+  background-position: -0px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gogoat {
+  background-position: -56px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-golbat {
+  background-position: -112px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-goldeen {
+  background-position: -168px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-golduck {
+  background-position: -224px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-golem {
+  background-position: -280px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-golett {
+  background-position: -336px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-golisopod {
+  background-position: -392px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-golurk {
+  background-position: -448px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-goodra {
+  background-position: -504px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-goomy {
+  background-position: -560px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gorebyss {
+  background-position: -616px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gossifleur {
+  background-position: -672px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gothita {
+  background-position: -728px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gothitelle {
+  background-position: -784px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gothorita {
+  background-position: -840px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gourgeist-average {
+  background-position: -896px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grafaiai {
+  background-position: -896px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-granbull {
+  background-position: -896px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grapploct {
+  background-position: -896px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-graveler {
+  background-position: -896px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-great-tusk {
+  background-position: -896px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-greavard {
+  background-position: -896px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-greedent {
+  background-position: -896px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-greninja {
+  background-position: -896px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grimer {
+  background-position: -896px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grimmsnarl {
+  background-position: -896px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grookey {
+  background-position: -896px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grotle {
+  background-position: -896px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-groudon {
+  background-position: -896px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grovyle {
+  background-position: -896px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-growlithe {
+  background-position: -896px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grubbin {
+  background-position: -896px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-grumpig {
+  background-position: -896px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gulpin {
+  background-position: -896px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gumshoos {
+  background-position: -896px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gurdurr {
+  background-position: -896px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-guzzlord {
+  background-position: -896px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-gyarados {
+  background-position: -0px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hakamo-o {
+  background-position: -56px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-happiny {
+  background-position: -112px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hariyama {
+  background-position: -168px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hatenna {
+  background-position: -224px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hatterene {
+  background-position: -280px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hattrem {
+  background-position: -336px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-haunter {
+  background-position: -392px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hawlucha {
+  background-position: -448px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-haxorus {
+  background-position: -504px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-heatmor {
+  background-position: -560px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-heatran {
+  background-position: -616px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-heliolisk {
+  background-position: -672px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-helioptile {
+  background-position: -728px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-heracross {
+  background-position: -784px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-herdier {
+  background-position: -840px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hippopotas {
+  background-position: -896px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hippowdon {
+  background-position: -952px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hitmonchan {
+  background-position: -952px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hitmonlee {
+  background-position: -952px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hitmontop {
+  background-position: -952px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ho-oh {
+  background-position: -952px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-honchkrow {
+  background-position: -952px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-honedge {
+  background-position: -952px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hoopa {
+  background-position: -952px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hoothoot {
+  background-position: -952px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hoppip {
+  background-position: -952px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-horsea {
+  background-position: -952px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-houndoom {
+  background-position: -952px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-houndour {
+  background-position: -952px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-houndstone {
+  background-position: -952px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-huntail {
+  background-position: -952px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hydreigon {
+  background-position: -952px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-hypno {
+  background-position: -952px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-igglybuff {
+  background-position: -952px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-illumise {
+  background-position: -952px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-impidimp {
+  background-position: -952px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-incineroar {
+  background-position: -952px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-indeedee-male {
+  background-position: -952px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-infernape {
+  background-position: -952px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-inkay {
+  background-position: -0px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-inteleon {
+  background-position: -56px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-bundle {
+  background-position: -112px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-hands {
+  background-position: -168px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-jugulis {
+  background-position: -224px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-leaves {
+  background-position: -280px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-moth {
+  background-position: -336px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-thorns {
+  background-position: -392px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-treads {
+  background-position: -448px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-iron-valiant {
+  background-position: -504px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ivysaur {
+  background-position: -560px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jangmo-o {
+  background-position: -616px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jellicent {
+  background-position: -672px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jigglypuff {
+  background-position: -728px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jirachi {
+  background-position: -784px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jolteon {
+  background-position: -840px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-joltik {
+  background-position: -896px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jumpluff {
+  background-position: -952px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-jynx {
+  background-position: -0px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kabuto {
+  background-position: -56px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kabutops {
+  background-position: -112px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kadabra {
+  background-position: -168px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kakuna {
+  background-position: -224px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kangaskhan {
+  background-position: -280px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-karrablast {
+  background-position: -336px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kartana {
+  background-position: -392px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kecleon {
+  background-position: -448px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-keldeo-ordinary {
+  background-position: -504px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kilowattrel {
+  background-position: -560px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kingambit {
+  background-position: -616px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kingdra {
+  background-position: -672px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kingler {
+  background-position: -728px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kirlia {
+  background-position: -784px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-klang {
+  background-position: -840px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-klawf {
+  background-position: -896px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kleavor {
+  background-position: -952px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-klefki {
+  background-position: -1008px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-klink {
+  background-position: -1008px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-klinklang {
+  background-position: -1008px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-koffing {
+  background-position: -1008px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-komala {
+  background-position: -1008px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kommo-o {
+  background-position: -1008px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-koraidon {
+  background-position: -1008px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-krabby {
+  background-position: -1008px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kricketot {
+  background-position: -1008px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kricketune {
+  background-position: -1008px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-krokorok {
+  background-position: -1008px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-krookodile {
+  background-position: -1008px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kubfu {
+  background-position: -1512px -336px;
+  width: 52px;
+  height: 42px;
+}
+.icon-kyogre {
+  background-position: -1008px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-kyurem {
+  background-position: -1008px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lairon {
+  background-position: -1008px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lampent {
+  background-position: -1008px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-landorus-incarnate {
+  background-position: -1008px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lanturn {
+  background-position: -1008px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lapras {
+  background-position: -1008px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-larvesta {
+  background-position: -1008px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-larvitar {
+  background-position: -1008px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-latias {
+  background-position: -1008px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-latios {
+  background-position: -1008px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-leafeon {
+  background-position: -1008px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-leavanny {
+  background-position: -1008px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lechonk {
+  background-position: -0px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ledian {
+  background-position: -56px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ledyba {
+  background-position: -112px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lickilicky {
+  background-position: -168px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lickitung {
+  background-position: -224px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-liepard {
+  background-position: -280px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lileep {
+  background-position: -336px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lilligant {
+  background-position: -392px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lillipup {
+  background-position: -448px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-linoone {
+  background-position: -504px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-litleo {
+  background-position: -560px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-litten {
+  background-position: -616px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-litwick {
+  background-position: -672px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lokix {
+  background-position: -728px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lombre {
+  background-position: -784px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lopunny {
+  background-position: -840px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lotad {
+  background-position: -896px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-loudred {
+  background-position: -952px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lucario {
+  background-position: -1008px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ludicolo {
+  background-position: -1064px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lugia {
+  background-position: -1064px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lumineon {
+  background-position: -1064px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lunala {
+  background-position: -1064px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lunatone {
+  background-position: -1064px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lurantis {
+  background-position: -1064px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-luvdisc {
+  background-position: -1064px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-luxio {
+  background-position: -1064px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-luxray {
+  background-position: -1064px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-lycanroc-midday {
+  background-position: -1064px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mabosstiff {
+  background-position: -1064px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-machamp {
+  background-position: -1064px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-machoke {
+  background-position: -1064px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-machop {
+  background-position: -1064px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magby {
+  background-position: -1064px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magcargo {
+  background-position: -1064px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magearna {
+  background-position: -1064px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magikarp {
+  background-position: -1064px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magmar {
+  background-position: -1064px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magmortar {
+  background-position: -1064px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magnemite {
+  background-position: -1064px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magneton {
+  background-position: -1064px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-magnezone {
+  background-position: -1064px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-makuhita {
+  background-position: -1064px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-malamar {
+  background-position: -1064px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mamoswine {
+  background-position: -1064px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-manaphy {
+  background-position: -0px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mandibuzz {
+  background-position: -56px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-manectric {
+  background-position: -112px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mankey {
+  background-position: -168px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mantine {
+  background-position: -224px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mantyke {
+  background-position: -280px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-maractus {
+  background-position: -336px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mareanie {
+  background-position: -392px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mareep {
+  background-position: -448px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-marill {
+  background-position: -504px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-marowak {
+  background-position: -560px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-marshadow {
+  background-position: -616px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-marshtomp {
+  background-position: -672px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-maschiff {
+  background-position: -728px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-masquerain {
+  background-position: -784px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-maushold {
+  background-position: -840px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mawile {
+  background-position: -896px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-medicham {
+  background-position: -952px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meditite {
+  background-position: -1008px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meganium {
+  background-position: -1064px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-melmetal {
+  background-position: -1120px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meloetta-aria {
+  background-position: -1120px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meltan {
+  background-position: -1120px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meowscarada {
+  background-position: -1120px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meowstic-male {
+  background-position: -1120px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-meowth {
+  background-position: -1120px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mesprit {
+  background-position: -1120px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-metagross {
+  background-position: -1120px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-metang {
+  background-position: -1120px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-metapod {
+  background-position: -1120px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mew {
+  background-position: -1120px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mewtwo {
+  background-position: -1120px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mienfoo {
+  background-position: -1120px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mienshao {
+  background-position: -1120px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mightyena {
+  background-position: -1120px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-milcery {
+  background-position: -1120px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-milotic {
+  background-position: -1120px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-miltank {
+  background-position: -1120px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mime-jr {
+  background-position: -1120px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mimikyu-disguised {
+  background-position: -1120px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-minccino {
+  background-position: -1120px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-minior-red-meteor {
+  background-position: -1120px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-minun {
+  background-position: -1120px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-miraidon {
+  background-position: -1120px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-misdreavus {
+  background-position: -1120px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mismagius {
+  background-position: -1120px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-missing {
+  background-position: -1512px -462px;
+  width: 32px;
+  height: 32px;
+}
+.icon-moltres {
+  background-position: -1120px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-monferno {
+  background-position: -0px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-morelull {
+  background-position: -56px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-morgrem {
+  background-position: -112px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-morpeko-full-belly {
+  background-position: -168px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mothim {
+  background-position: -224px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mr-mime {
+  background-position: -280px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mr-rime {
+  background-position: -336px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mudbray {
+  background-position: -392px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mudkip {
+  background-position: -448px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-mudsdale {
+  background-position: -504px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-muk {
+  background-position: -560px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-munchlax {
+  background-position: -616px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-munna {
+  background-position: -672px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-murkrow {
+  background-position: -728px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-musharna {
+  background-position: -784px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nacli {
+  background-position: -840px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-naclstack {
+  background-position: -896px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-naganadel {
+  background-position: -952px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-natu {
+  background-position: -1008px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-necrozma {
+  background-position: -1064px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nickit {
+  background-position: -1120px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nidoking {
+  background-position: -0px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nidoqueen {
+  background-position: -56px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nidoran-f {
+  background-position: -112px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nidoran-m {
+  background-position: -168px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nidorina {
+  background-position: -224px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nidorino {
+  background-position: -280px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nihilego {
+  background-position: -336px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nincada {
+  background-position: -392px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ninetales {
+  background-position: -448px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ninjask {
+  background-position: -504px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-noctowl {
+  background-position: -560px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-noibat {
+  background-position: -616px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-noivern {
+  background-position: -672px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nosepass {
+  background-position: -728px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-numel {
+  background-position: -784px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nuzleaf {
+  background-position: -840px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-nymble {
+  background-position: -896px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-obstagoon {
+  background-position: -952px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-octillery {
+  background-position: -1008px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-oddish {
+  background-position: -1064px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-oinkologne {
+  background-position: -1120px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-omanyte {
+  background-position: -1176px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-omastar {
+  background-position: -1176px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-onix {
+  background-position: -1176px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-oranguru {
+  background-position: -1176px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-orbeetle {
+  background-position: -1176px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-oricorio-baile {
+  background-position: -1176px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-orthworm {
+  background-position: -1176px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-oshawott {
+  background-position: -1176px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-overqwil {
+  background-position: -1176px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pachirisu {
+  background-position: -1176px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-palafin {
+  background-position: -1176px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-palkia {
+  background-position: -1176px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-palossand {
+  background-position: -1176px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-palpitoad {
+  background-position: -1176px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pancham {
+  background-position: -1176px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pangoro {
+  background-position: -1176px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-panpour {
+  background-position: -1176px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pansage {
+  background-position: -1176px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pansear {
+  background-position: -1176px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-paras {
+  background-position: -1176px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-parasect {
+  background-position: -1176px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-passimian {
+  background-position: -1176px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-patrat {
+  background-position: -1176px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pawmi {
+  background-position: -1176px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pawmo {
+  background-position: -1176px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pawmot {
+  background-position: -1176px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pawniard {
+  background-position: -1176px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pelipper {
+  background-position: -1176px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-perrserker {
+  background-position: -1176px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-persian {
+  background-position: -0px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-petilil {
+  background-position: -56px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-phanpy {
+  background-position: -112px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-phantump {
+  background-position: -168px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pheromosa {
+  background-position: -224px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-phione {
+  background-position: -280px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pichu {
+  background-position: -336px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pidgeot {
+  background-position: -392px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pidgeotto {
+  background-position: -448px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pidgey {
+  background-position: -504px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pidove {
+  background-position: -560px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pignite {
+  background-position: -616px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pikachu {
+  background-position: -672px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pikipek {
+  background-position: -728px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-piloswine {
+  background-position: -784px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pincurchin {
+  background-position: -840px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pineco {
+  background-position: -896px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pinsir {
+  background-position: -952px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-piplup {
+  background-position: -1008px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-plusle {
+  background-position: -1064px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-poipole {
+  background-position: -1120px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-politoed {
+  background-position: -1176px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-poliwag {
+  background-position: -1232px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-poliwhirl {
+  background-position: -1232px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-poliwrath {
+  background-position: -1232px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-polteageist {
+  background-position: -1232px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ponyta {
+  background-position: -1232px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-poochyena {
+  background-position: -1232px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-popplio {
+  background-position: -1232px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-porygon-z {
+  background-position: -1232px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-porygon {
+  background-position: -1232px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-porygon2 {
+  background-position: -1232px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-primarina {
+  background-position: -1232px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-primeape {
+  background-position: -1232px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-prinplup {
+  background-position: -1232px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-probopass {
+  background-position: -1232px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-psyduck {
+  background-position: -1232px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pumpkaboo-average {
+  background-position: -1232px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pupitar {
+  background-position: -1232px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-purrloin {
+  background-position: -1232px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-purugly {
+  background-position: -1232px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pyroar {
+  background-position: -1232px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-pyukumuku {
+  background-position: -1232px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-quagsire {
+  background-position: -1232px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-quaquaval {
+  background-position: -1232px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-quaxly {
+  background-position: -1232px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-quaxwell {
+  background-position: -1232px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-quilava {
+  background-position: -1232px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-quilladin {
+  background-position: -1232px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-qwilfish {
+  background-position: -1232px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-raboot {
+  background-position: -1232px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rabsca {
+  background-position: -1232px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-raichu {
+  background-position: -0px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-raikou {
+  background-position: -56px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ralts {
+  background-position: -112px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rampardos {
+  background-position: -168px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rapidash {
+  background-position: -224px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-raticate {
+  background-position: -280px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rattata {
+  background-position: -336px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rayquaza {
+  background-position: -392px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-regice {
+  background-position: -448px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-regidrago {
+  background-position: -504px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-regieleki {
+  background-position: -560px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-regigigas {
+  background-position: -616px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-regirock {
+  background-position: -672px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-registeel {
+  background-position: -728px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-relicanth {
+  background-position: -784px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rellor {
+  background-position: -840px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-remoraid {
+  background-position: -896px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-reshiram {
+  background-position: -952px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-reuniclus {
+  background-position: -1008px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-revavroom {
+  background-position: -1064px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rhydon {
+  background-position: -1120px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rhyhorn {
+  background-position: -1176px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rhyperior {
+  background-position: -1232px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ribombee {
+  background-position: -1288px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rillaboom {
+  background-position: -1288px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-riolu {
+  background-position: -1288px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-roaring-moon {
+  background-position: -1288px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rockruff {
+  background-position: -1288px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-roggenrola {
+  background-position: -1288px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rolycoly {
+  background-position: -1288px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rookidee {
+  background-position: -1288px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-roselia {
+  background-position: -1288px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-roserade {
+  background-position: -1288px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rotom {
+  background-position: -1288px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rowlet {
+  background-position: -1288px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-rufflet {
+  background-position: -1288px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-runerigus {
+  background-position: -1288px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sableye {
+  background-position: -1288px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-salamence {
+  background-position: -1288px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-salandit {
+  background-position: -1288px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-salazzle {
+  background-position: -1288px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-samurott {
+  background-position: -1288px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sandaconda {
+  background-position: -1288px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sandile {
+  background-position: -1288px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sandshrew {
+  background-position: -1288px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sandslash {
+  background-position: -1288px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sandy-shocks {
+  background-position: -1288px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sandygast {
+  background-position: -1288px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sawk {
+  background-position: -1288px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sawsbuck {
+  background-position: -1288px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scatterbug {
+  background-position: -1288px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sceptile {
+  background-position: -1288px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scizor {
+  background-position: -1288px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scolipede {
+  background-position: -1288px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scorbunny {
+  background-position: -0px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scovillain {
+  background-position: -56px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scrafty {
+  background-position: -112px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scraggy {
+  background-position: -168px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scream-tail {
+  background-position: -224px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-scyther {
+  background-position: -280px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-seadra {
+  background-position: -336px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-seaking {
+  background-position: -392px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sealeo {
+  background-position: -448px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-seedot {
+  background-position: -504px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-seel {
+  background-position: -560px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-seismitoad {
+  background-position: -616px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sentret {
+  background-position: -672px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-serperior {
+  background-position: -728px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-servine {
+  background-position: -784px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-seviper {
+  background-position: -840px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sewaddle {
+  background-position: -896px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sharpedo {
+  background-position: -952px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shaymin-land {
+  background-position: -1008px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shedinja {
+  background-position: -1064px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shelgon {
+  background-position: -1120px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shellder {
+  background-position: -1176px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shellos {
+  background-position: -1232px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shelmet {
+  background-position: -1288px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shieldon {
+  background-position: -0px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shiftry {
+  background-position: -56px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shiinotic {
+  background-position: -112px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shinx {
+  background-position: -168px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shroodle {
+  background-position: -224px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shroomish {
+  background-position: -280px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shuckle {
+  background-position: -336px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-shuppet {
+  background-position: -392px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sigilyph {
+  background-position: -448px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-silcoon {
+  background-position: -504px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-silicobra {
+  background-position: -560px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-silvally {
+  background-position: -616px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-simipour {
+  background-position: -672px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-simisage {
+  background-position: -728px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-simisear {
+  background-position: -784px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sinistea {
+  background-position: -840px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sirfetchd {
+  background-position: -896px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sizzlipede {
+  background-position: -952px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skarmory {
+  background-position: -1008px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skeledirge {
+  background-position: -1064px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skiddo {
+  background-position: -1120px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skiploom {
+  background-position: -1176px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skitty {
+  background-position: -1232px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skorupi {
+  background-position: -1288px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skrelp {
+  background-position: -1344px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skuntank {
+  background-position: -1344px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-skwovet {
+  background-position: -1344px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slaking {
+  background-position: -1344px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slakoth {
+  background-position: -1344px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sliggoo {
+  background-position: -1344px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slither-wing {
+  background-position: -1344px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slowbro {
+  background-position: -1344px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slowking {
+  background-position: -1344px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slowpoke {
+  background-position: -1344px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slugma {
+  background-position: -1344px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-slurpuff {
+  background-position: -1344px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-smeargle {
+  background-position: -1344px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-smoliv {
+  background-position: -1344px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-smoochum {
+  background-position: -1344px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sneasel {
+  background-position: -1344px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sneasler {
+  background-position: -1344px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-snivy {
+  background-position: -1344px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-snom {
+  background-position: -1344px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-snorlax {
+  background-position: -1344px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-snorunt {
+  background-position: -1344px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-snover {
+  background-position: -1344px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-snubbull {
+  background-position: -1344px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sobble {
+  background-position: -1344px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-solgaleo {
+  background-position: -1344px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-solosis {
+  background-position: -1344px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-solrock {
+  background-position: -1344px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spearow {
+  background-position: -1344px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spectrier {
+  background-position: -1344px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spewpa {
+  background-position: -1344px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spheal {
+  background-position: -1344px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spidops {
+  background-position: -1344px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spinarak {
+  background-position: -1344px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spinda {
+  background-position: -0px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spiritomb {
+  background-position: -56px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spoink {
+  background-position: -112px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sprigatito {
+  background-position: -168px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-spritzee {
+  background-position: -224px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-squawkabilly {
+  background-position: -280px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-squirtle {
+  background-position: -336px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stakataka {
+  background-position: -392px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stantler {
+  background-position: -448px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-staraptor {
+  background-position: -504px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-staravia {
+  background-position: -560px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-starly {
+  background-position: -616px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-starmie {
+  background-position: -672px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-staryu {
+  background-position: -728px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-steelix {
+  background-position: -784px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-steenee {
+  background-position: -840px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stonjourner {
+  background-position: -896px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stoutland {
+  background-position: -952px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stufful {
+  background-position: -1008px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stunfisk {
+  background-position: -1064px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-stunky {
+  background-position: -1120px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sudowoodo {
+  background-position: -1176px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-suicune {
+  background-position: -1232px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sunflora {
+  background-position: -1288px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sunkern {
+  background-position: -1344px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-surskit {
+  background-position: -1400px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swablu {
+  background-position: -1400px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swadloon {
+  background-position: -1400px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swalot {
+  background-position: -1400px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swampert {
+  background-position: -1400px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swanna {
+  background-position: -1400px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swellow {
+  background-position: -1400px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swinub {
+  background-position: -1400px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swirlix {
+  background-position: -1400px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-swoobat {
+  background-position: -1400px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-sylveon {
+  background-position: -1400px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tadbulb {
+  background-position: -1400px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-taillow {
+  background-position: -1400px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-talonflame {
+  background-position: -1400px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tandemaus {
+  background-position: -1400px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tangela {
+  background-position: -1400px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tangrowth {
+  background-position: -1400px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tapu-bulu {
+  background-position: -1400px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tapu-fini {
+  background-position: -1400px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tapu-koko {
+  background-position: -1400px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tapu-lele {
+  background-position: -1400px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tarountula {
+  background-position: -1400px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tatsugiri {
+  background-position: -1400px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tauros {
+  background-position: -1400px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-teddiursa {
+  background-position: -1400px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tentacool {
+  background-position: -1400px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tentacruel {
+  background-position: -1400px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tepig {
+  background-position: -1400px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-terrakion {
+  background-position: -1400px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-thievul {
+  background-position: -1400px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-throh {
+  background-position: -1400px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-thundurus-incarnate {
+  background-position: -1400px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-thwackey {
+  background-position: -1400px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-timburr {
+  background-position: -1400px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ting-lu {
+  background-position: -0px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tinkatink {
+  background-position: -56px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tinkaton {
+  background-position: -112px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tinkatuff {
+  background-position: -168px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tirtouga {
+  background-position: -224px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toedscool {
+  background-position: -280px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toedscruel {
+  background-position: -336px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-togedemaru {
+  background-position: -392px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-togekiss {
+  background-position: -448px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-togepi {
+  background-position: -504px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-togetic {
+  background-position: -560px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-torchic {
+  background-position: -616px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-torkoal {
+  background-position: -672px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tornadus-incarnate {
+  background-position: -728px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-torracat {
+  background-position: -784px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-torterra {
+  background-position: -840px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-totodile {
+  background-position: -896px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toucannon {
+  background-position: -952px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toxapex {
+  background-position: -1008px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toxel {
+  background-position: -1064px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toxicroak {
+  background-position: -1120px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-toxtricity-amped {
+  background-position: -1176px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tranquill {
+  background-position: -1232px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-trapinch {
+  background-position: -1288px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-treecko {
+  background-position: -1344px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-trevenant {
+  background-position: -1400px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tropius {
+  background-position: -1456px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-trubbish {
+  background-position: -1456px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-trumbeak {
+  background-position: -1456px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tsareena {
+  background-position: -1456px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-turtonator {
+  background-position: -1456px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-turtwig {
+  background-position: -1456px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tympole {
+  background-position: -1456px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tynamo {
+  background-position: -1456px -294px;
+  width: 56px;
+  height: 42px;
+}
+.icon-type-null {
+  background-position: -1456px -336px;
+  width: 56px;
+  height: 42px;
+}
+.icon-typhlosion {
+  background-position: -1456px -378px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tyranitar {
+  background-position: -1456px -420px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tyrantrum {
+  background-position: -1456px -462px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tyrogue {
+  background-position: -1456px -504px;
+  width: 56px;
+  height: 42px;
+}
+.icon-tyrunt {
+  background-position: -1456px -546px;
+  width: 56px;
+  height: 42px;
+}
+.icon-umbreon {
+  background-position: -1456px -588px;
+  width: 56px;
+  height: 42px;
+}
+.icon-unfezant {
+  background-position: -1456px -630px;
+  width: 56px;
+  height: 42px;
+}
+.icon-unown {
+  background-position: -1456px -672px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ursaluna {
+  background-position: -1456px -714px;
+  width: 56px;
+  height: 42px;
+}
+.icon-ursaring {
+  background-position: -1456px -756px;
+  width: 56px;
+  height: 42px;
+}
+.icon-urshifu-single-strike {
+  background-position: -1512px -378px;
+  width: 52px;
+  height: 42px;
+}
+.icon-uxie {
+  background-position: -1456px -798px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vanillish {
+  background-position: -1456px -840px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vanillite {
+  background-position: -1456px -882px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vanilluxe {
+  background-position: -1456px -924px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vaporeon {
+  background-position: -1456px -966px;
+  width: 56px;
+  height: 42px;
+}
+.icon-varoom {
+  background-position: -1456px -1008px;
+  width: 56px;
+  height: 42px;
+}
+.icon-veluza {
+  background-position: -1456px -1050px;
+  width: 56px;
+  height: 42px;
+}
+.icon-venipede {
+  background-position: -1456px -1092px;
+  width: 56px;
+  height: 42px;
+}
+.icon-venomoth {
+  background-position: -1456px -1134px;
+  width: 56px;
+  height: 42px;
+}
+.icon-venonat {
+  background-position: -1456px -1176px;
+  width: 56px;
+  height: 42px;
+}
+.icon-venusaur {
+  background-position: -1456px -1218px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vespiquen {
+  background-position: -1456px -1260px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vibrava {
+  background-position: -1456px -1302px;
+  width: 56px;
+  height: 42px;
+}
+.icon-victini {
+  background-position: -1456px -1344px;
+  width: 56px;
+  height: 42px;
+}
+.icon-victreebel {
+  background-position: -1456px -1386px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vigoroth {
+  background-position: -1456px -1428px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vikavolt {
+  background-position: -0px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vileplume {
+  background-position: -56px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-virizion {
+  background-position: -112px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vivillon {
+  background-position: -168px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-volbeat {
+  background-position: -224px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-volcanion {
+  background-position: -280px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-volcarona {
+  background-position: -336px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-voltorb {
+  background-position: -392px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vullaby {
+  background-position: -448px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-vulpix {
+  background-position: -504px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wailmer {
+  background-position: -560px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wailord {
+  background-position: -616px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-walking-wake {
+  background-position: -672px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-walrein {
+  background-position: -728px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wartortle {
+  background-position: -784px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-watchog {
+  background-position: -840px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wattrel {
+  background-position: -896px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-weavile {
+  background-position: -952px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-weedle {
+  background-position: -1008px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-weepinbell {
+  background-position: -1064px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-weezing {
+  background-position: -1120px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-whimsicott {
+  background-position: -1176px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-whirlipede {
+  background-position: -1232px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-whiscash {
+  background-position: -1288px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-whismur {
+  background-position: -1344px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wigglytuff {
+  background-position: -1400px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wiglett {
+  background-position: -1456px -1470px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wimpod {
+  background-position: -0px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wingull {
+  background-position: -56px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wishiwashi-solo {
+  background-position: -112px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wo-chien {
+  background-position: -168px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wobbuffet {
+  background-position: -224px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-woobat {
+  background-position: -280px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wooloo {
+  background-position: -336px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wooper {
+  background-position: -392px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wormadam-plant {
+  background-position: -448px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wugtrio {
+  background-position: -504px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wurmple {
+  background-position: -560px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wynaut {
+  background-position: -616px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-wyrdeer {
+  background-position: -672px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-xatu {
+  background-position: -728px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-xerneas {
+  background-position: -784px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-xurkitree {
+  background-position: -840px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-yamask {
+  background-position: -896px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-yamper {
+  background-position: -952px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-yanma {
+  background-position: -1008px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-yanmega {
+  background-position: -1064px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-yungoos {
+  background-position: -1120px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-yveltal {
+  background-position: -1176px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zacian {
+  background-position: -1232px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zamazenta {
+  background-position: -1288px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zangoose {
+  background-position: -1344px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zapdos {
+  background-position: -1400px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zarude {
+  background-position: -1512px -420px;
+  width: 52px;
+  height: 42px;
+}
+.icon-zebstrika {
+  background-position: -1456px -1512px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zekrom {
+  background-position: -1512px -0px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zeraora {
+  background-position: -1512px -42px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zigzagoon {
+  background-position: -1512px -84px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zoroark {
+  background-position: -1512px -126px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zorua {
+  background-position: -1512px -168px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zubat {
+  background-position: -1512px -210px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zweilous {
+  background-position: -1512px -252px;
+  width: 56px;
+  height: 42px;
+}
+.icon-zygarde-50 {
+  background-position: -1512px -294px;
+  width: 56px;
+  height: 42px;
+}
