@@ -50,7 +50,48 @@ h1 {
 
 .icon {
 	display: inline-block;
-  background-position: -1512px -462px;
-  width: 32px;
+  background-position: -1502px -462px;
+  width: 56px;
   height: 32px;
+}
+
+.dex-number {
+	font-weight: bold;
+	color: #ffc500;
+	display: inline-block;
+	width: 50px;
+	border: 2px solid #ffc500;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 2px;
+	margin-right:0;
+	align-self: flex-end;
+}
+
+li:hover .dex-number {
+	background: #ffc500;
+	color: #eeeeff;
+}
+
+.pokemon-name {
+	font-weight: bold;
+	border: 2px solid #393941;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 2px;
+	align-self: flex-end;
+}
+
+
+li:hover .pokemon-name {
+	background: #393941;
+	color: #eeeeff;
+}
+
+#results li{
+	display: flex;
+}
+
+#results {
+	list-style: none;
 }

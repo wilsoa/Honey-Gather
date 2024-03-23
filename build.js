@@ -302,7 +302,7 @@ function print_results(data) {
         if (p.is_default) {
             var entry = document.createElement("li");
             entry.id = "pokemon-" + p.pokemon_species_id;
-            entry.innerHTML = "<div class=\"icon icon-".concat(p.name, "\"></div>") + prettify_name(p.name);
+            entry.innerHTML = "</div><span class=\"dex-number\">".concat(p.pokemon_species_id, ":</span> <div class=\"icon icon-").concat(p.name, "\"></div><span class=\"pokemon-name\">").concat(prettify_name(p.name), "</span>");
             resultbox.appendChild(entry);
         }
     }

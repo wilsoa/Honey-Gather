@@ -71,7 +71,7 @@ function print_results (data) {
     if (p.is_default) {
       const entry = document.createElement("li");
       entry.id = "pokemon-" + p.pokemon_species_id;
-      entry.innerHTML = `<div class="icon icon-${p.name}"></div>` + prettify_name(p.name);
+      entry.innerHTML = `</div><span class="dex-number">${p.pokemon_species_id}:</span> <div class="icon icon-${p.name}"></div><span class="pokemon-name">${prettify_name(p.name)}</span>`;
       resultbox.appendChild(entry);
     }
   }
