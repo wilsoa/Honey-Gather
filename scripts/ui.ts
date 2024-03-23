@@ -62,35 +62,68 @@ function prettify_name (name) {
   return out.join(" ");
 }
 
+function format_result (p) {
+  const entry = document.createElement("li");
+  entry.id = "pokemon-" + p.pokemon_species_id;
+  entry.innerHTML = `</div><span class="dex-number">${p.pokemon_species_id}:</span> <div class="icon icon-${p.name}"></div><span class="pokemon-name">${prettify_name(p.name)}</span>`;
+  return entry;
+}
+
+// Add element b after element a
+function addAfter (a, b) {
+  if(a.nextSibling){
+    a.parentNode.insertBefore(b,a.nextSibling);
+  }else{
+    a.parentNode.appendChild(b);
+  }
+}
+
 function print_results (data) {
   resultbox.innerHTML = "";
+  var alternate_forms_to_fill_in = [];
+
   // Fill in defaults
   for (let i = 0; i < data.length; i++) {
     const p = data[i];
 
     if (p.is_default) {
-      const entry = document.createElement("li");
-      entry.id = "pokemon-" + p.pokemon_species_id;
-      entry.innerHTML = `</div><span class="dex-number">${p.pokemon_species_id}:</span> <div class="icon icon-${p.name}"></div><span class="pokemon-name">${prettify_name(p.name)}</span>`;
-      resultbox.appendChild(entry);
+      resultbox.appendChild(format_result(p));
+    }
+    else // Alternate forms
+    {
+      // Check if there's a default form
+      let default_exists = false;
+      for (let j = 0; j < data.length; j++) {
+        const q = data[j];
+        if (q.is_default && q.pokemon_species_id == p.pokemon_species_id) {
+          default_exists = true;
+        }
+      }
+
+      if (default_exists) {
+        if (options.show_alt_forms) {
+          alternate_forms_to_fill_in.push(p);
+        }
+      } else {
+        resultbox.appendChild(format_result(p));
+      }
     }
   }
 
-  // Fill in alternate forms
+  for (let i = 0; i < alternate_forms_to_fill_in.length; i++) {
+    const p = alternate_forms_to_fill_in[i];
+    const def = document.getElementById("pokemon-" + p.pokemon_species_id);
+    let list;
 
-  for (let i = 0; i < data.length; i++) {
-    const p = data[i];
-
-    if (!p.is_default) {
-      const def = document.getElementById("pokemon-" + p.pokemon_species_id);
-      if (def) {
-        // def.innerHTML += "<div class='alt-form'>" + `<img src='_sprites/${p.name}.png' />` + p.name + "</div>";
-      }
-      else
-      {
-        console.log(p)
-      }
+    if (def.nextSibling && def.nextSibling.nodeName == "UL") {
+      list = def.nextSibling;
+    } else {
+      list = document.createElement("ul");
+      list.classList.add("alternate-forms");
+      addAfter(def, list);
     }
+
+    list.appendChild(format_result(p));
   }
 
   console.log(data);
@@ -106,4 +139,16 @@ function show_error (err) {
   entry.innerHTML = err;
   errorbox.appendChild(entry);
   errorbox.classList.add("visible");
+}
+
+document.getElementById("results").onclick = function (e) {
+  var target = <HTMLElement> e.target;
+
+  if (target.nodeName != "LI") {
+    target = <HTMLInputElement> target.parentNode
+  }
+
+  target.classList.toggle("active")
+
+  console.log(target)
 }

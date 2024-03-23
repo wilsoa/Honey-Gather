@@ -53,6 +53,7 @@ h1 {
   background-position: -1502px -462px;
   width: 56px;
   height: 32px;
+	align-self: flex-end;
 }
 
 .dex-number {
@@ -68,7 +69,13 @@ h1 {
 	align-self: flex-end;
 }
 
-li:hover .dex-number {
+li {
+	min-height: 27px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+
+li:hover .dex-number, li.active .dex-number {
 	background: #ffc500;
 	color: #eeeeff;
 }
@@ -83,7 +90,7 @@ li:hover .dex-number {
 }
 
 
-li:hover .pokemon-name {
+li:hover .pokemon-name, li.active .pokemon-name {
 	background: #393941;
 	color: #eeeeff;
 }
@@ -94,4 +101,9 @@ li:hover .pokemon-name {
 
 #results {
 	list-style: none;
+}
+
+.alternate-forms {
+	display:block;
+	align-self: flex-end;
 }
