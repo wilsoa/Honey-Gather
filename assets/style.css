@@ -48,11 +48,11 @@ h1 {
 	opacity: 1;
 }
 
-.icon {
-	display: inline-block;
+.poke-sprite {
+/*	display: inline-block;
   background-position: -1502px -462px;
-  width: 56px;
-  height: 32px;
+    width: 40px;
+    height: 30px;*/
 	align-self: flex-end;
 }
 
@@ -69,13 +69,14 @@ h1 {
 	align-self: flex-end;
 }
 
-li {
+.pokemon-entry {
 	min-height: 27px;
 	margin-bottom: 3px;
 	cursor: pointer;
+	display: flex;
 }
 
-li:hover .dex-number, li.active .dex-number {
+.pokemon-entry:hover .dex-number, .pokemon-entry.active .dex-number {
 	background: #ffc500;
 	color: #eeeeff;
 }
@@ -90,13 +91,9 @@ li:hover .dex-number, li.active .dex-number {
 }
 
 
-li:hover .pokemon-name, li.active .pokemon-name {
+.pokemon-entry:hover .pokemon-name, .pokemon-entry.active .pokemon-name {
 	background: #393941;
 	color: #eeeeff;
-}
-
-#results li{
-	display: flex;
 }
 
 #results {
@@ -106,4 +103,8 @@ li:hover .pokemon-name, li.active .pokemon-name {
 .alternate-forms {
 	display:block;
 	align-self: flex-end;
+}
+
+.pokemon-data {
+	display:none;
 }

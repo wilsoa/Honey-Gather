@@ -300,8 +300,16 @@ function prettify_name(name) {
 function format_result(p) {
     var entry = document.createElement("li");
     entry.id = "pokemon-" + p.pokemon_species_id;
-    entry.innerHTML = "</div><span class=\"dex-number\">".concat(p.pokemon_species_id, ":</span> <div class=\"icon icon-").concat(p.name, "\"></div><span class=\"pokemon-name\">").concat(prettify_name(p.name), "</span>");
+    entry.classList.add("pokemon-entry");
+    entry.innerHTML = "<span class=\"dex-number\">".concat(p.pokemon_species_id, ":</span> <span class=\"pokesprite pokemon ").concat(p.name, "\"></span><span class=\"pokemon-name\">").concat(prettify_name(p.name), "</span>");
     return entry;
+}
+function format_data(p) {
+    var data = document.createElement("li");
+    data.id = "pokemon-data-" + p.pokemon_species_id;
+    data.classList.add("pokemon-data");
+    data.innerHTML = "(data)";
+    return data;
 }
 // Add element b after element a
 function addAfter(a, b) {
@@ -320,6 +328,7 @@ function print_results(data) {
         var p = data[i];
         if (p.is_default) {
             resultbox.appendChild(format_result(p));
+            resultbox.appendChild(format_data(p));
         }
         else // Alternate forms
          {
@@ -338,12 +347,13 @@ function print_results(data) {
             }
             else {
                 resultbox.appendChild(format_result(p));
+                resultbox.appendChild(format_data(p));
             }
         }
     }
     for (var i = 0; i < alternate_forms_to_fill_in.length; i++) {
         var p = alternate_forms_to_fill_in[i];
-        var def = document.getElementById("pokemon-" + p.pokemon_species_id);
+        var def = document.getElementById("pokemon-data-" + p.pokemon_species_id);
         var list = void 0;
         if (def.nextSibling && def.nextSibling.nodeName == "UL") {
             list = def.nextSibling;
@@ -354,6 +364,7 @@ function print_results(data) {
             addAfter(def, list);
         }
         list.appendChild(format_result(p));
+        list.appendChild(format_data(p));
     }
     console.log(data);
 }

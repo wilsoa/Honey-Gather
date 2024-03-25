@@ -65,8 +65,17 @@ function prettify_name (name) {
 function format_result (p) {
   const entry = document.createElement("li");
   entry.id = "pokemon-" + p.pokemon_species_id;
-  entry.innerHTML = `</div><span class="dex-number">${p.pokemon_species_id}:</span> <div class="icon icon-${p.name}"></div><span class="pokemon-name">${prettify_name(p.name)}</span>`;
+  entry.classList.add("pokemon-entry")
+  entry.innerHTML = `<span class="dex-number">${p.pokemon_species_id}:</span> <span class="pokesprite pokemon ${p.name}"></span><span class="pokemon-name">${prettify_name(p.name)}</span>`;
   return entry;
+}
+
+function format_data (p) {
+  const data = document.createElement("li");
+  data.id = "pokemon-data-" + p.pokemon_species_id;
+  data.classList.add("pokemon-data")
+  data.innerHTML = `(data)`;
+  return data;
 }
 
 // Add element b after element a
@@ -88,6 +97,7 @@ function print_results (data) {
 
     if (p.is_default) {
       resultbox.appendChild(format_result(p));
+      resultbox.appendChild(format_data(p));
     }
     else // Alternate forms
     {
@@ -106,13 +116,14 @@ function print_results (data) {
         }
       } else {
         resultbox.appendChild(format_result(p));
+        resultbox.appendChild(format_data(p));
       }
     }
   }
 
   for (let i = 0; i < alternate_forms_to_fill_in.length; i++) {
     const p = alternate_forms_to_fill_in[i];
-    const def = document.getElementById("pokemon-" + p.pokemon_species_id);
+    const def = document.getElementById("pokemon-data-" + p.pokemon_species_id);
     let list;
 
     if (def.nextSibling && def.nextSibling.nodeName == "UL") {
@@ -124,6 +135,7 @@ function print_results (data) {
     }
 
     list.appendChild(format_result(p));
+    list.appendChild(format_data(p));
   }
 
   console.log(data);
