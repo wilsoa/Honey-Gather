@@ -71,7 +71,7 @@ h1 {
 
 .pokemon-entry {
 	min-height: 27px;
-	margin-bottom: 3px;
+	margin-bottom: -18px;
 	cursor: pointer;
 	display: flex;
 }
