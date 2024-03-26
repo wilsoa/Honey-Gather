@@ -83,6 +83,12 @@ function search (where) {
 	    id,\
 	    name,\
 	    is_default\
+    pokemon_v2_pokemontypes {\
+      id\
+      pokemon_v2_type {\
+        name\
+      }\
+    }\
 	  }\
 	}";
 

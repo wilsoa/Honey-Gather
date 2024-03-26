@@ -66,6 +66,23 @@ function format_result (p) {
   entry.id = "pokemon-" + p.pokemon_species_id;
   entry.classList.add("pokemon-entry")
   entry.innerHTML = `<span class="dex-number">${p.pokemon_species_id}:</span> <span class="pokesprite pokemon ${p.name}"></span><span class="pokemon-name">${prettify_name(p.name)}</span>`;
+  
+  const name = <HTMLElement> entry.querySelector(".pokemon-name");
+  let type1
+  let type2
+
+  if (p.pokemon_v2_pokemontypes.length == 1) {
+    type1 = p.pokemon_v2_pokemontypes[0].pokemon_v2_type.name;
+    type2 = p.pokemon_v2_pokemontypes[0].pokemon_v2_type.name;
+  }
+  else {
+    type1 = p.pokemon_v2_pokemontypes[0].pokemon_v2_type.name;
+    type2 = p.pokemon_v2_pokemontypes[1].pokemon_v2_type.name;
+  }
+
+  name.style.setProperty("--type1", "#" + type_colors[type1])
+  name.style.setProperty("--type2", "#" + type_colors[type2])
+
   return entry;
 }
 
