@@ -35,17 +35,31 @@ h1 {
 }
 
 #errors {
-	float:right;
-	width: 12%;
-	margin-right: 2%;
+/*	float:right;*/
+	/*width: 12%;
+	margin-right: 2%;*/
+	margin-left: 2%;
+	margin-top:5px;
 	color: #ee3939;
 	font-weight: bold;
 	opacity: 0;
-	transition: opacity 0.2s ease-in-out;
+	margin-bottom:-40px;
+	transition: opacity 0.2s ease-in-out, margin-bottom 0.2s ease-in-out;
+	list-style: none;
+	padding-left: 0px;
+	display: flex;
+	width:100%;
+}
+
+#errors li {
+	display: inline-flex;
+	margin-right: 5px;
+	display: inline-block;
 }
 
 #errors.visible {
 	opacity: 1;
+	margin-bottom: -30px;
 }
 
 .poke-sprite {
@@ -107,4 +121,11 @@ h1 {
 
 .pokemon-data {
 	display:none;
+}
+
+.pokesprite.inline {
+	margin-right: -18px;
+	margin-left: -18px;
+	margin-top: -30px;
+	margin-bottom:-5px;
 }

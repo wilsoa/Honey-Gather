@@ -3,8 +3,7 @@ function capture_event (e) {
 	if (!e) e = window.event;
     var keyCode = e.code || e.key;
     if (keyCode == 'Enter'){
-      console.log(parse(searchbox.value));
-      // Enter pressed
+      parse(searchbox.value);
       return false;
     }
 }
@@ -137,8 +136,6 @@ function print_results (data) {
     list.appendChild(format_result(p));
     list.appendChild(format_data(p));
   }
-
-  console.log(data);
 }
 
 function clear_errors () {
@@ -146,9 +143,9 @@ function clear_errors () {
   errorbox.classList.remove("visible");
 }
 
-function show_error (err) {
+function show_error (err, typ = "question") {
   const entry = document.createElement("li");
-  entry.innerHTML = err;
+  entry.innerHTML = `<span class='pokesprite inline pokemon unown-${typ}'></span>` + err;
   errorbox.appendChild(entry);
   errorbox.classList.add("visible");
 }
@@ -161,6 +158,4 @@ document.getElementById("results").onclick = function (e) {
   }
 
   target.classList.toggle("active")
-
-  console.log(target)
 }

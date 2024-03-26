@@ -11,7 +11,7 @@ var options = {
 // AND
 // OR
 // -(...) for not
-var keys = ["is", "hp", "atk", "def", "spa", "spd", "spe", "type", "t", "learns", "l", "ability", "a"];
+var keys = ["is", "hp", "atk", "def", "spa", "spd", "spe", "type", "t", "learns", "l", "ability", "a", "can"];
 var comparisons = [">", ">=", "<=", "<", "=", ":"];
 var aliases = {
     "l": "learns",
@@ -44,13 +44,24 @@ function parse(str) {
         }
         return false;
     }
+    function KEY() {
+        WS();
+        var key = "";
+        while (index < str.length && str[index] != ":") {
+            key += str[index];
+            index++;
+        }
+        return key;
+    }
     function BASIC_QUERY() {
         var key = KEY();
+        console.log(key);
         if (key == false) {
             return false;
         }
         var comparison = COMPARISON();
         if (comparison == false) {
+            show_error("Expected comparison after key \"".concat(key, "\""), "exclamation");
             return false;
         }
         var value = VALUE();
@@ -61,13 +72,20 @@ function parse(str) {
             return key_hooks[aliases[key]](key, comparison, value);
         }
         else {
-            return key_hooks[key](key, comparison, value);
+            if (key_hooks[key] == undefined) {
+                console.log(key);
+                show_error("Unknown key ".concat(key));
+                return false;
+            }
+            else {
+                return key_hooks[key](key, comparison, value);
+            }
         }
     }
-    function KEY() {
-        WS();
-        return TOKEN(keys);
-    }
+    // function KEY () {
+    // 	WS();
+    // 	return TOKEN(keys);
+    // }
     function COMPARISON() {
         WS();
         return TOKEN(comparisons);
@@ -111,7 +129,6 @@ function parse(str) {
         if (str[index] == "(") {
             index++;
             var inner = EXPRESSIONS();
-            console.log(inner, str[index]);
             if (str[index] == ")") {
                 index++;
             }
@@ -120,6 +137,9 @@ function parse(str) {
         return BASIC_QUERY();
     }
     function combine_wheres(wheres) {
+        if (wheres.length == 0) {
+            return false;
+        }
         var where = "";
         for (var i = 0; i < wheres.length - 1; i++) {
             where += wheres[i] + ", _and: {";
@@ -134,7 +154,6 @@ function parse(str) {
         var wheres = [];
         while (index < str.length) {
             var where = EXPRESSION();
-            console.log(index, where);
             if (TOKEN(["or"])) {
                 var where2 = EXPRESSION();
                 where = "_or: [{" + where + "}, {" + where2 + "}]";
@@ -211,34 +230,39 @@ var key_hooks = {
             switch (value) {
                 case "legendary":
                     return "pokemon_v2_pokemonspecy: {is_legendary: {_eq: true}}";
+                case "mega":
+                    return "pokemon_v2_pokemonforms: {is_mega: {_eq: true}}";
             }
         }
+        return false;
     }
 };
 var cache = {};
 function search(where) {
-    var query = "query samplePokeAPIquery {\
-  pokemon_v2_pokemon(where: {" + where + "}, order_by: {pokemon_species_id: asc}) {\
-    pokemon_species_id,\
-    id,\
-    name,\
-    is_default\
-  }\
-}";
-    if (cache[query]) {
-        print_results(cache[query]);
-    }
-    else {
-        fetch("https://beta.pokeapi.co/graphql/v1beta", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json",
-            },
-            body: JSON.stringify({ query: query }),
-        })
-            .then(function (r) { return r.json(); })
-            .then(function (data) { return print_results(cache[query] = data.data.pokemon_v2_pokemon); });
+    if (where) {
+        var query_1 = "query samplePokeAPIquery {\
+	  pokemon_v2_pokemon(where: {" + where + "}, order_by: {pokemon_species_id: asc}) {\
+	    pokemon_species_id,\
+	    id,\
+	    name,\
+	    is_default\
+	  }\
+	}";
+        if (cache[query_1]) {
+            print_results(cache[query_1]);
+        }
+        else {
+            fetch("https://beta.pokeapi.co/graphql/v1beta", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                body: JSON.stringify({ query: query_1 }),
+            })
+                .then(function (r) { return r.json(); })
+                .then(function (data) { return print_results(cache[query_1] = data.data.pokemon_v2_pokemon); });
+        }
     }
 }
 function capture_event(e) {
@@ -247,8 +271,7 @@ function capture_event(e) {
         e = window.event;
     var keyCode = e.code || e.key;
     if (keyCode == 'Enter') {
-        console.log(parse(searchbox.value));
-        // Enter pressed
+        parse(searchbox.value);
         return false;
     }
 }
@@ -366,15 +389,15 @@ function print_results(data) {
         list.appendChild(format_result(p));
         list.appendChild(format_data(p));
     }
-    console.log(data);
 }
 function clear_errors() {
     errorbox.innerHTML = "";
     errorbox.classList.remove("visible");
 }
-function show_error(err) {
+function show_error(err, typ) {
+    if (typ === void 0) { typ = "question"; }
     var entry = document.createElement("li");
-    entry.innerHTML = err;
+    entry.innerHTML = "<span class='pokesprite inline pokemon unown-".concat(typ, "'></span>") + err;
     errorbox.appendChild(entry);
     errorbox.classList.add("visible");
 }
@@ -384,5 +407,4 @@ document.getElementById("results").onclick = function (e) {
         target = target.parentNode;
     }
     target.classList.toggle("active");
-    console.log(target);
 };

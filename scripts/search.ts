@@ -62,8 +62,11 @@ const key_hooks = {
 			switch (value) {
 				case "legendary":
 					return "pokemon_v2_pokemonspecy: {is_legendary: {_eq: true}}";
+				case "mega":
+					return "pokemon_v2_pokemonforms: {is_mega: {_eq: true}}"
 			}
 		}
+		return false;
 	}
 }
 
@@ -72,30 +75,34 @@ let cache = {};
 
 function search (where) {
 
-	const query = "query samplePokeAPIquery {\
-  pokemon_v2_pokemon(where: {" + where + "}, order_by: {pokemon_species_id: asc}) {\
-    pokemon_species_id,\
-    id,\
-    name,\
-    is_default\
-  }\
-}";
+	if (where) {
 
-if (cache[query]) {
-	print_results(cache[query])
-}
-else {
+		const query = "query samplePokeAPIquery {\
+	  pokemon_v2_pokemon(where: {" + where + "}, order_by: {pokemon_species_id: asc}) {\
+	    pokemon_species_id,\
+	    id,\
+	    name,\
+	    is_default\
+	  }\
+	}";
 
-	fetch("https://beta.pokeapi.co/graphql/v1beta", {
-	  method: "POST",
-	  headers: {
-	    "Content-Type": "application/json",
-	    Accept: "application/json",
-	  },
-	  body: JSON.stringify({ query: query}),
-	})
-	  .then(r => r.json())
-	  .then(data => print_results(cache[query] = data.data.pokemon_v2_pokemon))
-	 }
+	if (cache[query]) {
+		print_results(cache[query])
+	}
+	else {
+
+
+		fetch("https://beta.pokeapi.co/graphql/v1beta", {
+		  method: "POST",
+		  headers: {
+		    "Content-Type": "application/json",
+		    Accept: "application/json",
+		  },
+		  body: JSON.stringify({ query: query}),
+		})
+		  .then(r => r.json())
+		  .then(data => print_results(cache[query] = data.data.pokemon_v2_pokemon))
+		 }
+		}
 }
 

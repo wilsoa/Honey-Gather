@@ -7,7 +7,7 @@
 // OR
 // -(...) for not
 
-const keys = ["is", "hp", "atk", "def", "spa", "spd", "spe", "type", "t", "learns", "l", "ability", "a"];
+const keys = ["is", "hp", "atk", "def", "spa", "spd", "spe", "type", "t", "learns", "l", "ability", "a", "can"];
 const comparisons = [">", ">=", "<=", "<", "=", ":"];
 
 const aliases = {
@@ -47,6 +47,18 @@ function parse (str) {
 		return false;
 	}
 
+	function KEY () : string | false {
+		WS();
+		let key = "";
+
+
+		while (index < str.length && str[index] != ":") {
+			key += str[index];
+			index++;
+		}
+		return key;
+	}
+
 	function BASIC_QUERY () {
 		const key = KEY();
 
@@ -57,6 +69,7 @@ function parse (str) {
 		const comparison = COMPARISON();
 
 		if (comparison == false) {
+			show_error(`Expected comparison after key "${key}"`, "exclamation")
 			return false;
 		}
 
@@ -71,14 +84,21 @@ function parse (str) {
 		}
 		else
 		{
-			return key_hooks[key](key, comparison, value);
+			if (key_hooks[key] == undefined) {
+				console.log(key)
+				show_error(`Unknown key ${key}`)
+				return false
+			}
+			else {
+				return key_hooks[key](key, comparison, value);
+			}
 		}
 	}
 
-	function KEY () {
-		WS();
-		return TOKEN(keys);
-	}
+	// function KEY () {
+	// 	WS();
+	// 	return TOKEN(keys);
+	// }
 
 	function COMPARISON () {
 		WS();
@@ -130,8 +150,6 @@ function parse (str) {
 			index++;
 			const inner = EXPRESSIONS();
 
-			console.log(inner, str[index])
-
 			if (str[index] == ")") {
 				index++;
 			}
@@ -142,6 +160,9 @@ function parse (str) {
 	}
 
 	function combine_wheres (wheres) {
+		if (wheres.length == 0) {
+			return false;
+		}
 		let where = "";
 
 		for (let i = 0; i < wheres.length - 1; i++) {
@@ -161,8 +182,6 @@ function parse (str) {
 		const wheres = [];
 		while (index < str.length) {
 			let where = EXPRESSION();
-
-			console.log(index, where)
 
 			if (TOKEN(["or"])) {
 				const where2 = EXPRESSION();
