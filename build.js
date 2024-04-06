@@ -332,7 +332,11 @@ var name_exceptions = {
     "urshifu-single-strike": "Urshifu",
     "enamorous-incarnate": "Enamorous",
     "meloetta-aria": "Meloetta",
-    "indeedee-male": "Indeedee"
+    "indeedee-male": "Indeedee",
+    "wo-chien": "Wo-Chien",
+    "ting-lu": "Ting-Lu",
+    "chi-yu": "Chi-Yu",
+    "chien-pao": "Chien-Pao"
 };
 function prettify_name(name) {
     if (name_exceptions[name]) {
@@ -345,11 +349,20 @@ function prettify_name(name) {
     }
     return out.join(" ");
 }
-function format_result(p) {
+function format_result(p, lone_alternate) {
+    if (lone_alternate === void 0) { lone_alternate = false; }
     var entry = document.createElement("li");
     entry.id = "pokemon-" + p.pokemon_species_id;
     entry.classList.add("pokemon-entry");
     entry.innerHTML = "<span class=\"dex-number\">".concat(p.pokemon_species_id, ":</span> <span class=\"pokesprite pokemon ").concat(p.name, "\"></span><span class=\"pokemon-name\">").concat(prettify_name(p.name), "</span>");
+    if (p.is_default) {
+        entry.innerHTML += "<a class=\"bulba\" target=\"_blank\" href=\"https://bulbapedia.bulbagarden.net/wiki/".concat(prettify_name(p.name), "_(Pok%C3%A9mon)\"></a>");
+    }
+    else {
+        if (lone_alternate) {
+            entry.innerHTML += "<a class=\"bulba\" target=\"_blank\" href=\"https://bulbapedia.bulbagarden.net/wiki/".concat(prettify_name(p.name).split(" ")[0], "_(Pok%C3%A9mon)\"></a>");
+        }
+    }
     var name = entry.querySelector(".pokemon-name");
     var type1;
     var type2;
@@ -407,7 +420,7 @@ function print_results(data) {
                 }
             }
             else {
-                resultbox.appendChild(format_result(p));
+                resultbox.appendChild(format_result(p, true));
                 resultbox.appendChild(format_data(p));
             }
         }

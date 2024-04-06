@@ -10,6 +10,21 @@ h1 {
 	border-bottom: 7px solid #ffc500;
 }
 
+a.bulba {
+	display: inline-block;
+	background-image: url('https://archives.bulbagarden.net/media/upload/thumb/d/d4/Bulbapedia_bulb.png/60px-Bulbapedia_bulb.png');
+	width:30px;
+	height:30px;
+	background-size: 30px;
+	filter: grayscale(100%);
+	align-self: flex-end;
+	margin-left:8px;
+}
+
+a.bulba:hover {
+	filter: grayscale(0%);
+}
+
 #search {
 	border: 1px solid rgba(255,255,255,0.25);
   background-color: #bdbdd5;
@@ -86,14 +101,14 @@ h1 {
 .pokemon-entry {
 	min-height: 27px;
 	margin-bottom: -18px;
-	cursor: pointer;
+/*	cursor: pointer;*/
 	display: flex;
 }
 
-.pokemon-entry:hover .dex-number, .pokemon-entry.active .dex-number {
+/*.pokemon-entry:hover .dex-number, .pokemon-entry.active .dex-number {
 	background: #ffc500;
 	color: #eeeeff;
-}
+}*/
 
 .pokemon-name {
 	font-weight: bold;
@@ -106,10 +121,10 @@ h1 {
 }
 
 
-.pokemon-entry:hover .pokemon-name, .pokemon-entry.active .pokemon-name {
+/*.pokemon-entry:hover .pokemon-name, .pokemon-entry.active .pokemon-name {
 	background: #393941;
 	color: #eeeeff;
-}
+}*/
 
 #results {
 	list-style: none;
@@ -144,4 +159,8 @@ h1 {
   position:absolute;
   z-index:9;
   background:linear-gradient(to right, var(--type1) 50%, var(--type2) 50%);
+}
+
+.pokemon-entry .pokesprite {
+	z-index:10;
 }
