@@ -67,7 +67,7 @@ function parse(str) {
     function KEY() {
         WS();
         var key = "";
-        while (index < str.length && str[index] != ":") {
+        while (index < str.length && comparisons.indexOf(str[index]) == -1) {
             key += str[index];
             index++;
         }
