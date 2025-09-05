@@ -23,7 +23,7 @@
 	</div>
 	
 	<table id="guesses">
-		<tr><th>Move</th><th>Type</th><th>Category</th><th>Base Power</th><th>Accuracy</th><th>Maximum PP</th><th>Effect Chance</th></tr>
+		<tr id="guess_header"><th>Move</th><th>Type</th><th>Category</th><th>Base Power</th><th>Accuracy</th><th>Maximum PP</th><th>Effect Chance</th></tr>
 	</table>
 </div>
 	
@@ -65,6 +65,7 @@
 		const move_search = document.getElementById("move_search");
 		const recommendations = document.getElementById("recommendations");
 		const guesses = document.getElementById("guesses");
+		const guess_header = document.getElementById("guess_header");
 		var guessed = [];
 		
 		move_search.addEventListener('input', function() {
@@ -141,12 +142,18 @@
 			
 			const tr = document.createElement("tr");
 			
+			const name_td = make_td(move.name);
+			
+			if (move.longname) {
+				name_td.innerHTML = move.longname;
+			}
+			
 			if (move == actual_move) {
-				tr.classList.add("correct");
+				name_td.classList.add("correct");
 				win_game();
 			}
 			
-			tr.appendChild(make_td(move.name))
+			tr.appendChild(name_td);
 			
 			// Check type
 			const type_td = make_td(prettify[move.type]);
@@ -226,7 +233,7 @@
 			
 			
 			tr.appendChild(effect_td)
-			guesses.appendChild(tr)
+			guess_header.after(tr)
 		}
 		
 		function win_game () {
@@ -240,13 +247,15 @@
 	font-family: Tahoma, sans-serif;
 	font-size:20px;
 }
-		.incorrect { 
+		td.incorrect { 
 			background: #ee3939;
 			color: white;
+			border: 2px solid #8f2121;
 		}
 		
-		.correct {
+		td.correct {
 			background: #91A119;
+			border: 2px solid #4D550D;
 		}
 		
 		#move_search {
@@ -283,6 +292,10 @@
 			background:  #ffc500
 		}
 		
+		#guesses td {
+			padding: 2px;
+		}
+		
 		#sidebar {
 			float: left;
 			height: 100%;
@@ -295,7 +308,7 @@
   			position: relative;
   			transition: left .5s;
   			transition-timing-function: ease-out;
-  			margin-top: -15px;
+  			margin-top: -5px;
 		}
 		
 		#search {
@@ -308,6 +321,11 @@
 			vertical-align: middle;
 			display: inline-block;
 			margin-bottom: -30px;
+			margin-top:0px;
+		}
+		
+		#results img{
+			margin-top: -22px;
 		}
 		
 		.win #results {
