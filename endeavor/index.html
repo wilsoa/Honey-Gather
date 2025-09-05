@@ -1,0 +1,327 @@
+<html>
+<head>
+	<title>Endeavor</title>
+</head>
+<body>
+
+<h1>Endeavor: A Pokémon Move Guessing Game</h1>
+
+<div id="game">
+	<div id="sidebar">
+		<div id="search">
+			<input id="move_search" placeholder="Guess a move"/>
+			<ul id="recommendations"></ul>
+		</div>
+		
+		<div id="results">
+			<img src="https://archives.bulbagarden.net/media/upload/9/9b/Spr_4d_415_f.png" id="freddie" />
+			<h3>Congrats!</h3>
+			<div id="stats">
+				<i>(To do: Stats)</i>
+			</div>
+		</div>
+	</div>
+	
+	<table id="guesses">
+		<tr><th>Move</th><th>Type</th><th>Category</th><th>Base Power</th><th>Accuracy</th><th>Maximum PP</th><th>Effect Chance</th></tr>
+	</table>
+</div>
+	
+	<script src="./moves.js"></script>
+	<script>
+		var move_names = [];
+		
+		for (var x in moves) {
+			move_names.push(x);
+		}
+		
+		const prettify = {
+		// Types
+			"NORMAL": "Normal",
+			"FIGHTING": "Fighting",
+			"FLYING": "Flying",
+			"POISON": "Poison",
+			"GROUND": "Ground",
+			"ROCK": "Rock",
+			"BUG": "Bug",
+			"GHOST": "Ghost",
+			"STEEL": "Steel",
+			"FIRE": "Fire",
+			"WATER": "Water",
+			"GRASS": "Grass",
+			"ELECTRIC": "Electric",
+			"PSYCHIC": "Psychic",
+			"ICE": "Ice",
+			"DRAGON": "Dragon",
+			"DARK": "Dark",
+			"FAIRY": "Fairy",
+			"SHADOW": "Shadow",
+		// Categories
+			"special": "Special",
+			"physical": "Physical",
+			"status": "Status"
+		}
+		
+		const move_search = document.getElementById("move_search");
+		const recommendations = document.getElementById("recommendations");
+		const guesses = document.getElementById("guesses");
+		var guessed = [];
+		
+		move_search.addEventListener('input', function() {
+			recommendations.innerHTML = ""
+			if (move_search.value) {
+				const results = search_by_name (move_search.value)
+				for (var i = 0; i < results.length; i++) {
+					const move = moves[results[i]];
+					const li = document.createElement("li");
+					
+					li.id = results[i];
+					
+					if (move.longname) {
+						li.innerHTML = move.longname;
+					} else {
+						li.innerHTML = move.name;
+					}
+					recommendations.appendChild(li);
+				}
+			}
+		})
+		
+		recommendations.addEventListener("click", function (e) {
+			guess_move(e.target.id);
+			move_search.value = "";
+			recommendations.innerHTML = "";
+			move_search.focus();
+		})
+		
+		function search_by_name (input) {
+			var out = [];
+			const sanitized_input = input.toUpperCase().replace(/\s/,"");
+			
+			for (var i = 0; i < move_names.length; i++) {
+				if (move_names[i].includes(sanitized_input) && guessed.indexOf(move_names[i]) == -1) {
+					out.push(move_names[i]);
+				}
+			}
+			
+			return out;
+		}
+		
+		function make_td (content) {
+			const td = document.createElement("td");
+			td.innerHTML = content;
+			return td;
+		}
+		
+		// Select actual move by tribonacci mod 30, divided by two
+		
+		cached = {}
+		
+		function tribonacci_mod30 (n) {
+			if (cached[n]) {
+				return cached[n];
+			}
+			if (n == 0) {
+				return 0;
+			} 
+			if (n == 1) {
+				return 0;
+			} 
+			if (n == 2) {
+				return 1;
+			}
+			return cached[n] = (tribonacci_mod30(n - 1) + tribonacci_mod30(n - 2) + tribonacci_mod30(n - 3)) % 30;
+		}
+		
+		const actual_move = moves[move_names[Math.floor(tribonacci_mod30(Math.floor(Date.now()/86400000) % 1610)/2)]]
+		
+		function guess_move (move_id) {
+			guessed.push(move_id);
+			const move = moves[move_id];
+			
+			const tr = document.createElement("tr");
+			
+			if (move == actual_move) {
+				tr.classList.add("correct");
+				win_game();
+			}
+			
+			tr.appendChild(make_td(move.name))
+			
+			// Check type
+			const type_td = make_td(prettify[move.type]);
+			if (move.type == actual_move.type) {
+				type_td.classList.add("correct");
+			} else {
+				type_td.classList.add("incorrect");
+			}
+			tr.appendChild(type_td)
+			
+			// Check category
+			const category_td = make_td(prettify[move.category]);
+			if (move.category == actual_move.category) {
+				category_td.classList.add("correct");
+			} else {
+				category_td.classList.add("incorrect");
+			}
+			tr.appendChild(category_td)
+			
+			// Check base power
+			const power_td = make_td(move.basedamage);
+			
+			if (move.basedamage == actual_move.basedamage) {
+				power_td.classList.add("correct");
+			} else if (move.basedamage < actual_move.basedamage) {
+				power_td.innerHTML = "⬆️" + power_td.innerHTML;
+			} else {
+				power_td.innerHTML = "⬇️" + power_td.innerHTML;
+			}
+			
+			tr.appendChild(power_td)
+			
+			// Check accuracy
+			const accuracy_td = make_td(move.accuracy);
+			
+			if (move.accuracy == actual_move.accuracy) {
+				accuracy_td.classList.add("correct");
+			} else if (move.accuracy < actual_move.accuracy) {
+				accuracy_td.innerHTML = "⬆️" + accuracy_td.innerHTML;
+			} else {
+				accuracy_td.innerHTML = "⬇️" + accuracy_td.innerHTML;
+			}
+			
+			tr.appendChild(accuracy_td)
+			
+			// Check PP
+			const pp_td = make_td(move.maxpp);
+			
+			if (move.maxpp == actual_move.maxpp) {
+				pp_td.classList.add("correct");
+			} else if (move.maxpp < actual_move.maxpp) {
+				pp_td.innerHTML = "⬆️" + pp_td.innerHTML;
+			} else {
+				pp_td.innerHTML = "⬇️" + pp_td.innerHTML;
+			}
+			
+			tr.appendChild(pp_td)
+			
+			
+			const effect_td = make_td("N/A")
+			
+			// Check effect chance
+			if (move.effect == undefined) {
+				if (actual_move.effect == undefined) {
+					effect_td.classList.add("correct");
+				}
+			} else {
+				effect_td.innerHTML = move.effect;
+				if (move.effect == actual_move.effect) {
+					effect_td.classList.add("correct");
+				} else if (move.effect < actual_move.effect) {
+					effect_td.innerHTML = "⬆️" + effect_td.innerHTML;
+				} else {
+					effect_td.innerHTML = "⬇️" + effect_td.innerHTML;
+				}
+			}
+			
+			
+			tr.appendChild(effect_td)
+			guesses.appendChild(tr)
+		}
+		
+		function win_game () {
+			document.getElementById("game").classList.add("win")
+		}
+	</script>
+	
+	<style>body {
+	background: #eeeeff;
+	color: #393941;
+	font-family: Tahoma, sans-serif;
+	font-size:20px;
+}
+		.incorrect { 
+			background: #ee3939;
+			color: white;
+		}
+		
+		.correct {
+			background: #91A119;
+		}
+		
+		#move_search {
+			border: 1px solid rgba(255,255,255,0.25);
+			  background-color: #bdbdd5;
+			  color: #393941;
+			  border-radius: 5px;
+			  box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+			  line-height: 1.25;
+			  margin: 0;
+			width: 100%;
+	font-size:20px;
+		}
+		
+		#recommendations {
+			margin-top: 5px;
+			padding-left: 0px;
+			background-color: rgba(255,255,255,0.25);
+			border-radius: 5px;
+		}
+		
+		#recommendations li {
+			cursor: pointer;
+			list-style:none;
+		}
+		
+		#recommendations li:hover {
+			background: #bdbdd5;
+			border-radius: 5px;
+		}
+		
+		#guesses th {
+			width: 9%;
+			background:  #ffc500
+		}
+		
+		#sidebar {
+			float: left;
+			height: 100%;
+			width: 30%;
+			margin-right: 5px;
+		}
+		
+		#results {
+			left: -105%;
+  			position: relative;
+  			transition: left .5s;
+  			transition-timing-function: ease-out;
+  			margin-top: -15px;
+		}
+		
+		#search {
+			opacity: 100%;
+  			transition: opacity .45s;
+		}
+		
+		#results h3 {
+			height: 80px;
+			vertical-align: middle;
+			display: inline-block;
+			margin-bottom: -30px;
+		}
+		
+		.win #results {
+			left:0px;
+		}
+		
+		.win #search {
+			opacity: 0%;
+			height: 0px;
+		}
+		
+		#freddie {
+			float: right;
+		}
+	</style>
+</body>
+</html>
