@@ -83,8 +83,36 @@
 					} else {
 						li.innerHTML = move.name;
 					}
+					
+					// Default to the top element being focused
+					if ( i == 0 ) {
+						li.classList.add("focused");
+					}
+					
 					recommendations.appendChild(li);
 				}
+			}
+		})
+		
+		move_search.addEventListener('keydown', function(e) {
+			const focused = recommendations.getElementsByClassName("focused")[0];
+			// Move selection down
+			if (e.keyCode == 40) {
+				if (focused.nextElementSibling) {
+					focused.classList.remove("focused");
+					focused.nextElementSibling.classList.add("focused");
+				}
+			}
+			// Move selection up
+			if (e.keyCode == 38) {
+				if (focused.previousElementSibling) {
+					focused.classList.remove("focused");
+					focused.previousElementSibling.classList.add("focused");
+				}
+			}
+			// Select
+			if (e.keyCode == 13) {
+				select_move({target: focused});
 			}
 		})
 		
@@ -137,7 +165,7 @@
 			return cached[n] = (tribonacci_mod810(n - 1) + tribonacci_mod810(n - 2) + tribonacci_mod810(n - 3)) % 810;
 		}
 		
-		const actual_move = moves[move_names[tribonacci_mod810(Math.floor(Date.now()/86400000))]]
+		const actual_move = moves[move_names[tribonacci_mod810(Math.floor(Date.now()/86400000) % 1610)]]
 		
 		function guess_move (move_id) {
 			guessed.push(move_id);
@@ -285,7 +313,7 @@
 			list-style:none;
 		}
 		
-		#recommendations li:hover {
+		#recommendations li:hover, #recommendations li.focused {
 			background: #bdbdd5;
 			border-radius: 5px;
 		}
