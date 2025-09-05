@@ -118,7 +118,7 @@
 		
 		cached = {}
 		
-		function tribonacci_mod30 (n) {
+		function tribonacci_mod810 (n) {
 			if (cached[n]) {
 				return cached[n];
 			}
@@ -131,10 +131,10 @@
 			if (n == 2) {
 				return 1;
 			}
-			return cached[n] = (tribonacci_mod30(n - 1) + tribonacci_mod30(n - 2) + tribonacci_mod30(n - 3)) % 30;
+			return cached[n] = (tribonacci_mod810(n - 1) + tribonacci_mod810(n - 2) + tribonacci_mod810(n - 3)) % 810;
 		}
 		
-		const actual_move = moves[move_names[Math.floor(tribonacci_mod30(Math.floor(Date.now()/86400000) % 1610)/2)]]
+		const actual_move = moves[move_names[tribonacci_mod810(Math.floor(Date.now()/86400000))]]
 		
 		function guess_move (move_id) {
 			guessed.push(move_id);
