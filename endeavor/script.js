@@ -192,7 +192,7 @@ function guess_move (move_id) {
 	
 	const accuracy_td = make_td(move_accuracy == Infinity ? "&infin;" : move_accuracy);
 	
-	if (move.accuracy == actual_move_accuracy) {
+	if (move_accuracy == actual_move_accuracy) {
 		accuracy_td.classList.add("correct");
 	} else if (move_accuracy < actual_move_accuracy) {
 		accuracy_td.innerHTML = "⬆️" + accuracy_td.innerHTML;
