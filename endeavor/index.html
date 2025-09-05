@@ -88,12 +88,15 @@
 			}
 		})
 		
-		recommendations.addEventListener("click", function (e) {
+		function select_move (e) {
 			guess_move(e.target.id);
 			move_search.value = "";
 			recommendations.innerHTML = "";
 			move_search.focus();
-		})
+		}
+		
+		recommendations.addEventListener("click", select_move);
+		recommendations.addEventListener("touchend", select_move);
 		
 		function search_by_name (input) {
 			var out = [];
