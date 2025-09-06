@@ -1,3 +1,7 @@
+// To dos: Z-moves have weird data
+// sheer cold has 1 base power? as does low kick
+// might want to replace the "effect chance" column with something more interesting. Too many weird corner cases
+
 // Initialize move data
 var move_names = [];
 
@@ -257,7 +261,8 @@ if (localStorage.getItem("saved_day")) {
 		localStorage.setItem("saved_day", current_day);
 		localStorage.setItem("saved_guesses", "[]");
 	}
-	console.log(saved_day,current_day, localStorage.getItem("saved_guesses"))
+} else {	
+		localStorage.setItem("saved_day", current_day);
 }
 
 function save_guesses () {
