@@ -1,3 +1,4 @@
+// Initialize move data
 var move_names = [];
 
 for (var x in moves) {
@@ -134,10 +135,15 @@ function tribonacci_mod810 (n) {
 	return cached[n] = (tribonacci_mod810(n - 1) + tribonacci_mod810(n - 2) + tribonacci_mod810(n - 3)) % 810;
 }
 
-const actual_move = moves[move_names[tribonacci_mod810(Math.floor(Date.now()/86400000) % 1610)]]
+const current_day = Math.floor(Date.now()/86400000) - 20330;
+
+const actual_move = moves[move_names[tribonacci_mod810(current_day)]]
 
 function guess_move (move_id) {
-	guessed.push(move_id);
+	if (!guessed.includes(move_id)) {
+		guessed.push(move_id);
+		save_guesses ();
+	}
 	const move = moves[move_id];
 	
 	const tr = document.createElement("tr");
@@ -239,6 +245,32 @@ function guess_move (move_id) {
 	guess_header.after(tr)
 }
 
-function win_game () {
-	document.getElementById("game").classList.add("win")
+// load stored data
+if (localStorage.getItem("saved_day")) {
+	const saved_day = +localStorage.getItem("saved_day");
+	if (saved_day == current_day) {
+		guessed = JSON.parse(localStorage.getItem("saved_guesses"));
+		for (var i = 0; i < guessed.length; i++) {
+			guess_move(guessed[i]);
+		}
+	} else {
+		localStorage.setItem("saved_day", current_day);
+		localStorage.setItem("saved_guesses", "[]");
+	}
+	console.log(saved_day,current_day, localStorage.getItem("saved_guesses"))
 }
+
+function save_guesses () {
+	localStorage.setItem("saved_guesses", JSON.stringify(guessed));
+}
+
+
+function win_game () {
+	document.getElementById("game").classList.add("win");
+}
+
+// Countdown to next  game
+const countdown = document.getElementById("countdown_amount");
+const minutes_until_next_game = Math.floor((1-(Date.now()/86400000 % 1))*24*60);
+const mins = minutes_until_next_game % 60;
+countdown.innerHTML = Math.floor(minutes_until_next_game / 60) + "h" + (mins < 10 ? "0" + mins: mins) + "m"
