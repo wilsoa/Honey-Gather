@@ -11,13 +11,24 @@
 </head>
 <body>
     <img src="https://www.smogon.com/dex/media/sprites/xy/combee.gif" style="float:right;"/>
-    <h1>Honey Gather</h1>
-    <div id="search_area">
-        <input type="text" id="search" />
+    <h1>Honey Gather: A Pokémon Search Engine (Work In Progress)</h1>
+    <div id="key">
+    	<b>Examples</b>
+    	<ul>
+    		<li><span class="term">t:grass</span> grass-type Pokémon</li>
+    		<li><span class="term">l:"trick room"</span> Pokémon that learn Trick Room</li>
+    		<li><span class="term">a:"wonder guard"</span> Pokémon with the ability Wonder Guard</li>
+    		<li><span class="term">atk>100</span> Pokémon with base attack greater than 100</li>
+    	</ul>
     </div>
-    <div id="errors"></div>
+    <div id="search_container">
+	    <div id="search_area">
+		<input type="text" id="search" />
+	    </div>
+	    <div id="errors"></div>
 
-    <ul id="results"></ul>
+	    <ul id="results"></ul>
+    </div>
     <script src="./build.js"></script>
 
 </body>
