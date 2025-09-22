@@ -36,6 +36,50 @@ const prettify = {
 	"status": "Status"
 }
 
+const types = [
+	"NORMAL",
+	"FIRE",
+	"WATER",
+	"ELECTRIC",
+	"GRASS",
+	"ICE",
+	"FIGHTING",
+	"POISON",
+	"GROUND",
+	"FLYING",
+	"PSYCHIC",
+	"BUG",
+	"ROCK",
+	"GHOST",
+	"DRAGON",
+	"DARK",
+	"STEEL",
+	"FAIRY"
+]
+
+// effectiveness [attack, defense]
+
+const effectiveness = [
+	[1,1,1,1,1,1,1,1,1,1,1,1,.5,0,1,1,.5,1], // NORMAL
+	[1,.5,.5,1,2,2,1,1,1,1,1,2,.5,1,.5,1,2,1], // FIRE
+	[1,2,.5,1,.5,1,1,1,2,1,1,1,2,1,.5,1,1,1], // WATER
+	[1,1,2,.5,.5,1,1,1,0,2,1,1,1,1,.5,1,1,1], // ELECTRIC
+	[1,.5,2,1,.5,1,1,.5,2,.5,1,.5,2,1,.5,1,.5,1], // GRASS
+	[1,.5,.5,1,2,.5,1,1,2,2,1,1,1,1,2,1,.5,1], // ICE
+	[2,1,1,1,1,2,1,.5,1,.5,.5,.5,2,0,1,2,2,.5], // FIGHTING
+	[1,1,1,1,2,1,1,.5,.5,1,1,1,.5,.5,1,1,0,2], // POISON
+	[1,2,1,2,.5,1,1,2,1,0,1,.5,2,1,1,1,2,1], // GROUND
+	[1,1,1,.5,2,1,2,1,1,1,1,2,.5,1,1,1,.5,1], // FLYING
+	[1,1,1,1,1,1,2,2,1,1,.5,1,1,1,1,0,.5,1], // PSYCHIC
+	[1,.5,1,1,2,1,.5,.5,1,.5,2,1,1,.5,1,2,.5,.5], // BUG
+	[1,2,1,1,1,2,.5,1,.5,2,1,2,1,1,1,1,.5,1], // ROCK
+	[0,1,1,1,1,1,1,1,1,1,2,1,1,2,1,.5,1,1], // GHOST
+	[1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,.5,0], // DRAGON
+	[1,1,1,1,1,1,.5,1,1,1,2,1,1,2,1,.5,1,.5], // DARK
+	[1,.5,.5,.5,1,2,1,1,1,1,1,1,2,1,1,1,.5,2], // STEEL
+	[1,.5,1,1,1,1,2,.5,1,1,1,1,1,1,2,2,.5,1] // FAIRY
+]
+
 const move_search = document.getElementById("move_search");
 const recommendations = document.getElementById("recommendations");
 const guesses = document.getElementById("guesses");
@@ -170,7 +214,22 @@ function guess_move (move_id) {
 	if (move.type == actual_move.type) {
 		type_td.classList.add("correct");
 	} else {
-		type_td.classList.add("incorrect");
+		const guessed_index = types.indexOf(move.type);
+		const actual_index = types.indexOf(actual_move.type);
+		const multiplier = effectiveness[guessed_index][actual_index];
+		
+		// guessed type not effective on correct type
+		if (multiplier < 1) {
+			type_td.classList.add("incorrect");
+			type_td.innerHTML += "<span class='hint'>(not very effective)</span>";
+		}
+		if (multiplier == 1) {
+			type_td.classList.add("normally_effective");
+		}
+		if (multiplier > 1) {
+			type_td.classList.add("partial");
+			type_td.innerHTML += "<span class='hint'>(very effective)</span>";
+		}
 	}
 	tr.appendChild(type_td)
 	

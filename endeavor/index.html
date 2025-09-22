@@ -30,7 +30,7 @@
 	</div>
 	
 	<script src="./moves.js"></script>
-	<script src="./script.js"></script>
+	<script src="./script.js?1"></script>
 	
 	<style>body {
 	background: #eeeeff;
@@ -47,6 +47,22 @@
 		td.correct {
 			background: #91A119;
 			border: 2px solid #4D550D;
+		}
+		
+		td.normally_effective {
+			background: #cccccc;
+			border: 2px solid #666666;
+		}
+		
+		td.partial {
+			background: #ffe799;
+			border: 2px solid #ffc500;
+		}
+		
+		.hint {
+			font-size: 10px;
+			float:right;
+			margin-top: 4px;
 		}
 		
 		#move_search {
@@ -80,7 +96,7 @@
 		
 		#guesses th {
 			width: 9%;
-			background:  #ffc500
+			background:  #ffc500;
 		}
 		
 		#guesses td {
@@ -90,8 +106,8 @@
 		#sidebar {
 			float: left;
 			height: 100%;
-			width: 30%;
-			margin-right: 5px;
+			width: 20%;
+			margin-right: 10px;
 		}
 		
 		#results {
